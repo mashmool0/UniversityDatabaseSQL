@@ -4,17 +4,17 @@ This relational database is designed to manage and streamline the operations of 
 
 # Entities and Relationships
 # Students
-Attributes: Student ID, Name, Date of Birth, Email, Major
+Attributes: Student ID, Name, Date of Birth, Email, Major<br/>
 Relationships: Enrollments, Majors
 # Professors
-Attributes: Professor ID, Name, Email, Department
+Attributes: Professor ID, Name, Email, Department<br/>
 Relationships: Courses
 # Courses
-*Attributes: Course ID, Course Name, Credits, Department
-*Relationships: Enrollments, Professors
+Attributes: Course ID, Course Name, Credits, Department<br/>
+Relationships: Enrollments, Professors
 # Enrollments
-Attributes: Enrollment ID, Student ID, Course ID, Grade
+Attributes: Enrollment ID, Student ID, Course ID, Grade<br/>
 Relationships: Students, Courses
 # Departments
-Attributes: Department ID, Department Name
+Attributes: Department ID, Department Name<br/>
 Relationships: Students, Professors, Courses
