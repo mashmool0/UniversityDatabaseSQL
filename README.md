@@ -10,8 +10,8 @@ Relationships: Enrollments, Majors
 Attributes: Professor ID, Name, Email, Department
 Relationships: Courses
 # Courses
-Attributes: Course ID, Course Name, Credits, Department
-Relationships: Enrollments, Professors
+*Attributes: Course ID, Course Name, Credits, Department
+*Relationships: Enrollments, Professors
 # Enrollments
 Attributes: Enrollment ID, Student ID, Course ID, Grade
 Relationships: Students, Courses
